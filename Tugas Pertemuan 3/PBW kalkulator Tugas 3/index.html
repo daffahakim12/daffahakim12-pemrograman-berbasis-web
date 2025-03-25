@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <h2>Kalkulator (+, -, *, /, %)</h2>
+    
+    <input type="number" id="num1" placeholder="Angka pertama" />
+    <input type="number" id="num2" placeholder="Angka kedua" />
+    
+    <br><br>
+    
+    <button onclick="calculate('+')">Tambah (+)</button>
+    <button onclick="calculate('-')">Kurang (-)</button>
+    <button onclick="calculate('*')">Kali (*)</button>
+    <button onclick="calculate('/')">Bagi (/)</button>
+    <button onclick="calculate('%')">Modulus (%)</button>
+    
+    <h3>Hasil: <span id="result">0</span></h3>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>

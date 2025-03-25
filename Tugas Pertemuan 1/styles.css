@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.category {
+    text-align: center;
+    font-size: 18px;
+    color: #777; 
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000; 
+}
+
+header .meta {
+    font-size: 16px;
+    color: #777;
+}
+
+.table-of-contents {
+    margin-bottom: 30px;
+}
+
+.table-of-contents h3 {
+    font-size: 24px;
+    color: #000; 
+    margin-bottom: 10px;
+}
+
+.table-of-contents ol {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.table-of-contents ol li {
+    margin-bottom: 10px;
+}
+
+.table-of-contents ol li a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.table-of-contents ol li a:hover {
+    color: #4CAF50;
+}
+
+.table-of-contents ol li .text {
+    color: #007BFF; 
+}
+
+article h2 {
+    font-size: 28px;
+    color: #000; 
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+article p:last-of-type {
+    margin-bottom: 0;
+}
+
+article p strong {
+    font-weight: bold;
+}
+
+.citation {
+    font-style: italic;
+    font-size: 16px;
+    color: #777; 
+    margin-top: 0; 
+}
+
+.s {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    article h2 {
+        font-size: 24px;
+    }
+
+    article p {
+        font-size: 16px;
+    }
+}
